@@ -1,3 +1,11 @@
+.report-header {
+  margin: 2rem; }
+  .report-header h3 {
+    text-align: center; }
+
+.icons {
+  min-height: 2rem; }
+
 /**Global styles**/
 /**Headings**/
 h1, h2, h3 {

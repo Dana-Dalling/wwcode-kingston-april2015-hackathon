@@ -1,6 +1,20 @@
+/* line 3, ../sass/main.scss */
+.report-header {
+  margin: 2rem;
+}
+/* line 5, ../sass/main.scss */
+.report-header h3 {
+  text-align: center;
+}
+
+/* line 10, ../sass/main.scss */
+.icons {
+  min-height: 2rem;
+}
+
 /**Global styles**/
 /**Headings**/
-/* line 7, ../sass/main.scss */
+/* line 19, ../sass/main.scss */
 h1, h2, h3 {
   border-left: solid #feda31 0.4rem;
   padding: 0 0 0 0.5rem;
@@ -8,13 +22,13 @@ h1, h2, h3 {
 
 /**Styles for individual sections**/
 /**Styles for footer sections*/
-/* line 47, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 .footer {
   background: #4eba6e;
   padding: 0.5rem 0;
   color: #ffffff !important;
 }
-/* line 51, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 .footer h6 {
   border-left: solid 3px #feda31;
   padding-left: 0.3rem;
@@ -23,7 +37,7 @@ h1, h2, h3 {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-/* line 59, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .footer p {
   font-weight: 300;
   font-size: 0.85rem;
