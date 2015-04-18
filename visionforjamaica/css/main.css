@@ -24,6 +24,7 @@ h4 {
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* line 32, ../sass/main.scss */
 p {
   color: white;
@@ -35,15 +36,25 @@ p {
 /** Icon Sections**/
 /**section styles**/
 /* line 42, ../sass/main.scss */
+=======
+/** Icon Sections**/
+/**section styles**/
+/* line 37, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
+<<<<<<< HEAD
 /* line 45, ../sass/main.scss */
+=======
+/* line 40, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
+<<<<<<< HEAD
 /* line 49, ../sass/main.scss */
 .what-we-do p {
   color: white;
@@ -52,38 +63,61 @@ p {
   padding-top: 1rem;
 }
 /* line 55, ../sass/main.scss */
+=======
+/* line 44, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .what-we-do p {
   color: white;
   font-weight: 300;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 /* line 64, ../sass/main.scss */
+=======
+/* line 53, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
 }
 
 /* vision and mission section styling */
+<<<<<<< HEAD
 /* line 70, ../sass/main.scss */
 .vision-header h2 {
   text-align: center;
 }
 /* line 74, ../sass/main.scss */
+=======
+/* line 59, ../sass/main.scss */
+.vision-header h2 {
+  text-align: center;
+}
+/* line 63, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .vision-header p {
   font-size: 1em;
 }
 
 /* Contact section styling */
+<<<<<<< HEAD
 /* line 83, ../sass/main.scss */
+=======
+/* line 72, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 91, ../sass/main.scss */
+=======
+/* line 80, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -93,18 +127,52 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
 /* line 102, ../sass/main.scss */
-p.center-text {
-  text-align: center;
+=======
+
+/* line 93, ../sass/main.scss */
+.contact-section h4 {
+  text-align: left;
+  padding-left: 4rem;
 }
 
+/* line 97, ../sass/main.scss */
+.contact-section p {
+
+/* line 91, ../sass/main.scss */
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
+p.center-text {
+
+  text-align: center;
+  color: white;
+  text-align: left;
+  padding-left: 4rem;
+}
+
+<<<<<<< HEAD
 /* line 105, ../sass/main.scss */
+=======
+
+/* line 103, ../sass/main.scss */
+
+/* line 94, ../sass/main.scss */
+
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
+<<<<<<< HEAD
 /* line 110, ../sass/main.scss */
+=======
+
+/* line 108, ../sass/main.scss */
+
+/* line 99, ../sass/main.scss */
+
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -123,27 +191,82 @@ textarea {
   border-radius: .3rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  background: #ebebeb;
 }
 
+<<<<<<< HEAD
 /* line 129, ../sass/main.scss */
+=======
+
+/* line 128, ../sass/main.scss */
+
+/* line 118, ../sass/main.scss */
+
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 textarea {
   margin-top: .5rem;
   height: 15rem;
 }
 
+/* line 133, ../sass/main.scss */
+::-webkit-input-placeholder {
+  color: #464646;
+}
+
+/* line 137, ../sass/main.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #464646;
+}
+
+/* line 141, ../sass/main.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #464646;
+}
+
+/* line 145, ../sass/main.scss */
+:-ms-input-placeholder {
+  color: #464646;
+}
+
 /** Recent Schools section styling**/
+<<<<<<< HEAD
 /* line 136, ../sass/main.scss */
+=======
+
+/* line 152, ../sass/main.scss */
+
+/* line 125, ../sass/main.scss */
+
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
+<<<<<<< HEAD
 /* line 141, ../sass/main.scss */
+=======
+
+/* line 157, ../sass/main.scss */
+
+/* line 130, ../sass/main.scss */
+
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
+<<<<<<< HEAD
 /* line 144, ../sass/main.scss */
+=======
+
+/* line 160, ../sass/main.scss */
+
+/* line 133, ../sass/main.scss */
+
+>>>>>>> 6af275c6ebe8d8924d73b5ce902e5a8388e669d7
 .recent-school-white-bg h4 {
   margin-top: 1rem;
 }
