@@ -17,66 +17,58 @@ h3 {
   font-size: 1.2rem;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 h4 {
   color: #fff;
   font-weight: bold;
   text-align: center;
 }
 
-/* line 31, ../sass/main.scss */
-p {
-  color: white;
-  font-weight: 300;
-  text-align: center;
-  padding-top: 2rem;
-}
-
 /** Icon Sections**/
 /**section styles**/
-/* line 41, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
-/* line 44, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
-/* line 48, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .what-we-do p {
   color: white;
   font-weight: 300;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
 }
 
 /* vision and mission section styling */
-/* line 63, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .vision-header h2 {
   text-align: center;
 }
-/* line 67, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 .vision-header p {
   font-size: 1em;
 }
 
 /* Contact section styling */
-/* line 76, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -86,18 +78,18 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
-/* line 95, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 p.center-text {
   text-align: center;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
-/* line 103, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -118,25 +110,25 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
-/* line 122, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 textarea {
   margin-top: .5rem;
   height: 15rem;
 }
 
 /** Recent Schools section styling**/
-/* line 129, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
-/* line 134, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
-/* line 137, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 .recent-school-white-bg h4 {
   margin-top: 1rem;
 }
