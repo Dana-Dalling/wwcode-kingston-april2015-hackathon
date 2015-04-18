@@ -44,7 +44,7 @@ p {
   height: 40rem;
 }
 
-<<<<<<< HEAD
+
 /* Contact section styling */
 .contact-section {
 	background: $main-blue;
@@ -94,5 +94,17 @@ textarea {
 }
 textarea {
 	margin-top: .5rem;
+}
+
+/** Recent Schools section styling**/
+
+.recent-schools-container{
+  background: $main-green;
+  padding: 2rem 0;
+}
+
+.recent-school-white-bg{
+  background: #ffffff;
+  padding-top: 0.9rem;
 }
 
