@@ -1,0 +1,5 @@
+/* line 3, ../sass/main.scss */
+h1, h2, h3 {
+  border-left: solid #feda31 0.4rem;
+  padding: 0 0 0 0.5rem;
+}
