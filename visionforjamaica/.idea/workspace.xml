@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="0" selection-start="5929" selection-end="5929" vertical-scroll-proportion="-10.0" vertical-offset="1695" max-vertical-offset="2460">
+            <state line="82" column="14" selection-start="3423" selection-end="3423" vertical-scroll-proportion="1.0802139" vertical-offset="826" max-vertical-offset="2700">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.10852713" vertical-offset="423" max-vertical-offset="2130">
+            <state line="27" column="23" selection-start="344" selection-end="344" vertical-scroll-proportion="25.75" vertical-offset="1023" max-vertical-offset="2190">
               <folding />
             </state>
           </provider>
@@ -250,16 +250,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="5929" selection-end="5929" vertical-scroll-proportion="-10.0" vertical-offset="1695" max-vertical-offset="2460">
+        <state line="27" column="23" selection-start="344" selection-end="344" vertical-scroll-proportion="25.75" vertical-offset="1023" max-vertical-offset="2190">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.10852713" vertical-offset="423" max-vertical-offset="2130">
+        <state line="82" column="14" selection-start="3423" selection-end="3423" vertical-scroll-proportion="1.0802139" vertical-offset="826" max-vertical-offset="2700">
           <folding />
         </state>
       </provider>

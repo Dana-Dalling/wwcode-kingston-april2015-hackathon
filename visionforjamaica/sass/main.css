@@ -95,6 +95,11 @@ textarea {
   background: #ffffff;
   padding-top: 0.9rem; }
   .recent-school-white-bg h4 {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    color: #464646;
+    text-align: left;
+    font-size: 1.2rem; }
+  .recent-school-white-bg p {
+    color: #686868; }
 
 /*# sourceMappingURL=main.css.map */

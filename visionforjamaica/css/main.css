@@ -17,7 +17,7 @@ h3 {
   font-size: 1.2rem;
 }
 
-/* line 26, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 h4 {
   color: #fff;
   font-weight: bold;
@@ -26,17 +26,17 @@ h4 {
 
 /** Icon Sections**/
 /**section styles**/
-/* line 37, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
-/* line 40, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
-/* line 44, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 .what-we-do p {
   color: white;
   font-weight: 300;
@@ -44,31 +44,31 @@ h4 {
   padding-top: 1rem;
 }
 
-/* line 53, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
 }
 
 /* vision and mission section styling */
-/* line 59, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .vision-header h2 {
   text-align: center;
 }
-/* line 63, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 .vision-header p {
   font-size: 1em;
 }
 
 /* Contact section styling */
-/* line 72, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -78,18 +78,18 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
-/* line 91, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 p.center-text {
   text-align: center;
 }
 
-/* line 94, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
-/* line 99, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -110,25 +110,32 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
-/* line 118, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 textarea {
   margin-top: .5rem;
   height: 15rem;
 }
 
 /** Recent Schools section styling**/
-/* line 125, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
-/* line 130, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
-/* line 133, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .recent-school-white-bg h4 {
   margin-top: 1rem;
+  color: #464646;
+  text-align: left;
+  font-size: 1.2rem;
+}
+/* line 137, ../sass/main.scss */
+.recent-school-white-bg p {
+  color: #686868;
 }
