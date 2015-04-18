@@ -1,62 +1,189 @@
-/*
-Error: File to import not found or unreadable: color.
-       Load paths:
-         Compass::SpriteImporter
-         C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass
-         C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets
-        on line 1 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss
+/**styles for  report section**/
+/* line 4, ../sass/main.scss */
+.report-header {
+  margin: 3rem;
+}
+/* line 6, ../sass/main.scss */
+.report-header h3 {
+  color: #242424;
+}
 
-1: @import "color";
-2: 
-3: /**styles for  report section**\/
-4: .report-header{
-5: 	 margin:3rem;
-6: 	h3{
+/* line 11, ../sass/main.scss */
+.report-info h5 {
+  color: #242424;
+  margin: 0;
+}
+/* line 15, ../sass/main.scss */
+.report-info p {
+  font-size: 0.9rem;
+  color: #545454;
+}
+/* line 19, ../sass/main.scss */
+.report-info img {
+  padding-bottom: 0.9rem;
+}
 
-Backtrace:
-C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss:1
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: color.\A        Load paths:\A          Compass::SpriteImporter\A          C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass\A          C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets\A         on line 1 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss\A \A 1: @import \"color\";\A 2: \A 3: /**styles for  report section**/\A 4: .report-header{\A 5: 	 margin:3rem;\A 6: 	h3{"; }
+/* line 24, ../sass/main.scss */
+#fourth-icon-section {
+  padding-top: 1rem;
+}
+
+/**Global styles**/
+/* line 29, ../sass/main.scss */
+a {
+  letter-spacing: .02rem;
+}
+
+/**Headings**/
+/* line 34, ../sass/main.scss */
+h1, h2, h3, h6 {
+  /*border-left: solid $main-yellow 0.4rem;*/
+  padding: 0 0 0 0.5rem;
+  font-weight: bold;
+}
+
+/* line 41, ../sass/main.scss */
+h2 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  min-width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 53, ../sass/main.scss */
+h2:before {
+  width: 0.3rem;
+  height: 90%;
+  content: "";
+  background-color: #feda31;
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  vertical-align: middle;
+}
+
+/**wrapper for content sections**/
+/* line 68, ../sass/main.scss */
+.content-wrapper {
+  border-bottom: solid #F1F1F1 0.1rem;
+  padding: 2rem 0 2rem 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 71, ../sass/main.scss */
+  .content-wrapper h3 {
+    margin-bottom: 4rem;
+  }
+}
+/* line 76, ../sass/main.scss */
+.content-wrapper .small-12 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 83, ../sass/main.scss */
+h1.header-h1 {
+  border-left: none !important;
+  font-size: 1.5rem !important;
+}
+
+/* line 88, ../sass/main.scss */
+header h2.right {
+  border-left: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 95, ../sass/main.scss */
+  .top-bar {
+    background: #4eba6e;
+    padding-top: .5rem;
+    padding-bottom: 3.3rem;
+  }
+}
+/* line 101, ../sass/main.scss */
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+  font-weight: bold;
+  padding: 0 4rem;
+}
+
+/* line 105, ../sass/main.scss */
+.top-bar-section ul li {
+  background: #4eba6e;
+}
+
+/* line 108, ../sass/main.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #4eba6e;
+  font-size: .9rem;
+  /*line-height: 2.125rem;
+  line-height: 2.3125rem;*/
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 115, ../sass/main.scss */
+  .top-bar-section ul {
+    padding-right: 3rem;
+  }
+}
+/* line 119, ../sass/main.scss */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: transparent;
+  background: transparent;
+  transition: all 0.5s ease;
+  padding-bottom: .02rem;
+  border-bottom: 3px solid #feda31;
+}
+
+/* line 126, ../sass/main.scss */
+.header-img {
+  background: url(../img/placeholder-hero-img.jpg) no-repeat;
+  width: 100%;
+  height: 50rem;
+}
+
+/* line 131, ../sass/main.scss */
+.yellow-background {
+  background: rgba(254, 218, 49, 0.89);
+  padding: 15px;
+  margin-top: 35rem;
+}
+
+/* line 136, ../sass/main.scss */
+.no-margin {
+  margin-left: 0rem;
+}
+
+/**Styles for individual sections**/
+/**Styles for report section**/
+/* line 145, ../sass/main.scss */
+#forth-icon-section {
+  padding-top: 1rem;
+}
+
+/**Styles for footer sections*/
+/* line 151, ../sass/main.scss */
+.footer {
+  background: #4eba6e;
+  padding: 3rem 0;
+  color: #ffffff !important;
+  /**Styles for About Us sections**/
+}
+/* line 155, ../sass/main.scss */
+.footer h6 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 160, ../sass/main.scss */
+.footer p {
+  font-weight: 300;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
