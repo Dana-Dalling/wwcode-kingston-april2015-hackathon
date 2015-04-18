@@ -1,16 +1,5 @@
 @import "color";
 
-.report-header{
-	 margin:2rem;
-}
-
-
-#forth-icon-section{
-	padding-top:1rem;
-}
-
-
-
 /**Global styles**/
 a {
   letter-spacing: .02rem;
@@ -21,6 +10,7 @@ h1, h2, h3, h6 {
 	border-left: solid $main-yellow 0.4rem;
 	padding: 0 0 0 0.5rem;
 	margin-bottom:2rem;
+	font-weight:600;
 }
 
 /**wrapper for content sections**/
@@ -37,10 +27,7 @@ h1, h2, h3, h6 {
 		margin-left:auto;
 		margin-right:auto;
 	}
-h2 {
-	 font-weight: bold;
 }
-
 
 h1.header-h1 {
   border-left: none !important;
@@ -90,26 +77,38 @@ header h2.right {
 
 /**Styles for individual sections**/
 
+/**Styles for report section**/
+.report-header{
+	 margin:2rem;
+}
 
+
+#forth-icon-section{
+	padding-top:1rem;
+}
 
 /**Styles for footer sections*/
 
-.footer{
+.footer {
   background: $main-green;
   padding: 3rem 0;
   color: #ffffff !important;
-  h6{
+  h6 {
     padding-left: 0.3rem;
     color: #ffffff;
     font-weight: bold;
     font-size: 1rem;
     margin-bottom: 1rem;
   }
-  p{
+  p {
     font-weight: 300;
     font-size: 0.85rem;
     margin-left: 0.5rem;
   }
 
 
+
 /**Styles for About Us sections**/
+
+}
+
