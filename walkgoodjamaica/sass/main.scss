@@ -1,12 +1,20 @@
 @import "color";
 
 .report-header{
-	 margin:2rem;
+	 margin:3rem;
 	h3{
-	 
+	 color:#242424;
 	}
 }
-
+.report-info{
+	h5{
+	    color:#242424;
+	}
+	p{
+     font-size:0.9rem;
+     color:#545454;
+	}
+}
 
 #forth-icon-section{
 	padding-top:1rem;
