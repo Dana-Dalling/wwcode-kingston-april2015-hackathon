@@ -7,13 +7,12 @@ a {
 /**Headings**/
 /* line 9, ../sass/main.scss */
 h1, h2, h3, h6 {
-  /*border-left: solid $main-yellow 0.4rem;*/
   padding: 0 0 0 0.5rem;
   font-weight: bold;
 }
 
-/* line 14, ../sass/main.scss */
-h3 {
+/* line 13, ../sass/main.scss */
+h3, h6 {
   font-weight: bold;
   margin-bottom: 2rem;
   font-weight: 600;
@@ -24,8 +23,9 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* line 25, ../sass/main.scss */
-h3:before {
+h3:before, h6:before {
   width: 0.3rem;
   height: 90%;
   content: "";
@@ -37,31 +37,31 @@ h3:before {
 }
 
 /**wrapper for content sections**/
-/* line 40, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 .content-wrapper {
   border-bottom: solid #F1F1F1 0.1rem;
   padding: 2rem 0 2rem 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 43, ../sass/main.scss */
+  /* line 42, ../sass/main.scss */
   .content-wrapper h3 {
     margin-bottom: 4rem;
   }
 }
-/* line 48, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .content-wrapper .small-12 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 55, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 h1.header-h1 {
   border-left: none !important;
   font-size: 1.5rem !important;
 }
 
-/* line 60, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 header h2.right {
   border-left: none;
   font-size: 2rem;
@@ -70,25 +70,25 @@ header h2.right {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 67, ../sass/main.scss */
+  /* line 66, ../sass/main.scss */
   .top-bar {
     background: #4eba6e;
     padding-top: .5rem;
     padding-bottom: 3.3rem;
   }
 }
-/* line 73, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
   font-weight: bold;
   padding: 0 4rem;
 }
 
-/* line 77, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 .top-bar-section ul li {
   background: #4eba6e;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 79, ../sass/main.scss */
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: #4eba6e;
   font-size: .9rem;
@@ -97,12 +97,12 @@ header h2.right {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 87, ../sass/main.scss */
+  /* line 86, ../sass/main.scss */
   .top-bar-section ul {
     padding-right: 3rem;
   }
 }
-/* line 91, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background-color: transparent;
   background: transparent;
@@ -111,54 +111,75 @@ header h2.right {
   border-bottom: 3px solid #feda31;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
 .header-img {
   background: url(../img/placeholder-hero-img.jpg) no-repeat;
   width: 100%;
   height: 50rem;
 }
 
-/* line 103, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .yellow-background {
   background: rgba(254, 218, 49, 0.89);
-  padding: 15px;
+  padding: 0.5rem;
   margin-top: 35rem;
 }
 
-/* line 108, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 .no-margin {
   margin-left: 0rem;
 }
 
 /**Styles for individual sections**/
 /**Styles for report section**/
-/* line 118, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 .report-info img {
   padding-bottom: 0.9rem;
 }
 
-/* line 123, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 #fourth-icon-section {
   padding-top: 1rem;
 }
 
 /**Styles for footer sections*/
-/* line 129, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .footer {
   background: #4eba6e;
   padding: 3rem 0;
   color: #ffffff !important;
-  /**Styles for About Us sections**/
 }
-/* line 133, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 .footer h6 {
   color: #ffffff;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-/* line 138, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 .footer p {
   font-weight: 300;
   font-size: 0.85rem;
   margin-left: 0.5rem;
+}
+
+/**Styles for team section**/
+@media only screen and (min-width: 40.063em) {
+  /* line 149, ../sass/main.scss */
+  .member {
+    margin-bottom: 1.8rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 149, ../sass/main.scss */
+  .member {
+    margin-bottom: 1.5rem;
+  }
+  /* line 155, ../sass/main.scss */
+  .member h4 {
+    margin-top: 0.3rem;
+  }
+}
+/* line 159, ../sass/main.scss */
+.member .bio {
+  margin-bottom: 0.5rem;
 }
