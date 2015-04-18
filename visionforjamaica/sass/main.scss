@@ -21,6 +21,7 @@ h3 {
 	text-transform: uppercase;
 	font-size: 1.2rem;
 }
+
 h4 {
 	color: #fff;
 	font-weight:bold;
@@ -33,6 +34,7 @@ p {
 	text-align: center;
 	padding-top: 2rem;
 }
+
 /** Icon Sections**/
 
 /**section styles**/
@@ -43,6 +45,13 @@ p {
 		padding-top: 4rem;
 		padding-bottom: 1rem;
 	}
+    p {
+      color: white;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 2rem;
+    }
+
 }
 
 .header{
@@ -125,6 +134,7 @@ textarea {
 .recent-school-white-bg{
   background: #ffffff;
   padding-top: 0.9rem;
+  h4{
+    margin-top: 1rem;
+  }
 }
-
-
