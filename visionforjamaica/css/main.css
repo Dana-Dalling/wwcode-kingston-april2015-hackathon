@@ -132,3 +132,23 @@ textarea {
 .recent-school-white-bg h4 {
   margin-top: 1rem;
 }
+
+/**Footer styles**/
+/* line 140, ../sass/main.scss */
+.footer {
+  background: #464646;
+}
+/* line 142, ../sass/main.scss */
+.footer a {
+  color: #acacac;
+  font-size: 0.9rem;
+  margin-right: 1.75rem;
+}
+/* line 148, ../sass/main.scss */
+.footer .border-bottom {
+  border-bottom: solid 0.1rem #4e4e4e;
+}
+/* line 152, ../sass/main.scss */
+.footer .footer-section {
+  padding: 1.5rem 0 1.5rem 0;
+}

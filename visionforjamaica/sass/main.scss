@@ -1,4 +1,4 @@
-@import "color.scss";
+@import "color";
 
   
  
@@ -133,4 +133,23 @@ textarea {
   h4{
     margin-top: 1rem;
   }
+}
+
+/**Footer styles**/
+
+.footer {
+	background:$dark-grey-background;
+	a{
+		color:$footer-links;
+		font-size:0.9rem;
+		margin-right:1.75rem;
+	}
+
+	.border-bottom {
+		border-bottom:solid 0.1rem $divider;
+	}
+
+	.footer-section {
+		padding:1.5rem 0 1.5rem 0;
+	}
 }
