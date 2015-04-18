@@ -1,3 +1,6 @@
+.row, .top-bar {
+  min-width: 72.5rem; }
+
 /** Header for What We Do Section**/
 h2 {
   text-align: center;
@@ -18,6 +21,12 @@ h4 {
   font-weight: bold;
   text-align: center; }
 
+a {
+  color: #fff; }
+
+a:hover {
+  color: #45ae62; }
+
 /** Icon Sections**/
 /**section styles**/
 .what-we-do {
@@ -33,8 +42,51 @@ h4 {
     padding-top: 1rem; }
 
 .header {
-  background: url("img/hero.jpg") no-repeat;
-  height: 40rem; }
+  background: url("../img/hero.jpg") no-repeat;
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header h1 {
+    color: #ffffff;
+    line-height: 125%;
+    font-weight: bold;
+    font-size: 2.7rem; }
+  .header p {
+    color: #ffffff;
+    font-size: 0.9rem; }
+  .header .contain-to-grid, .header .top-bar {
+    background: none !important; }
+  .header .top-bar-section ul {
+    background: none !important; }
+    .header .top-bar-section ul li {
+      background: none !important; }
+      .header .top-bar-section ul li.active {
+        background-color: #45ae62 !important;
+        border-radius: 3px; }
+      .header .top-bar-section ul li a {
+        background: none !important;
+        padding: 0.5rem 1rem !important;
+        line-height: 1.25rem !important; }
+  .header .contain-to-grid {
+    padding: 2em 0; }
+  .header .name {
+    font-weight: bold;
+    font-size: 1.5em; }
+    .header .name a {
+      color: #ffffff; }
+  .header .content-text {
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+  .header .hero-btn {
+    margin-right: 1em; }
+    .header .hero-btn button {
+      padding: 1.5rem 2rem;
+      font-weight: 600;
+      border-radius: 4px; }
+  .header .become-a-volunteer {
+    background-color: #feda31; }
+  .header .make-a-donation {
+    background-color: #45ae62; }
 
 /* vision and mission section styling */
 .vision-header h2 {
@@ -56,8 +108,18 @@ button.expand, .button.expand {
   border-radius: .3rem;
   font-size: 1.2rem; }
 
-p.center-text {
-  text-align: center; }
+.contact-section h4 {
+  text-align: left;
+  padding-left: 4rem;
+  color: #fff; }
+
+.text-align p {
+  text-align: center !important; }
+
+.contact-section p {
+  color: white;
+  text-align: left;
+  padding-left: 4rem; }
 
 .add-padding {
   padding-top: 3rem; }
@@ -80,11 +142,26 @@ input[type="color"],
 textarea {
   border-radius: .3rem;
   padding: 1.5rem;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  background: #ebebeb; }
 
 textarea {
   margin-top: .5rem;
-  height: 15rem; }
+  height: 20rem; }
+
+::-webkit-input-placeholder {
+  color: #464646; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #464646; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #464646; }
+
+:-ms-input-placeholder {
+  color: #464646; }
 
 /** Recent Schools section styling**/
 .recent-schools-container {
