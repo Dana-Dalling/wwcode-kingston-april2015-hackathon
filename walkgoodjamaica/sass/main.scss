@@ -9,5 +9,14 @@ h1, h2, h3 {
 	padding: 0 0 0 0.5rem;
 }
 
+/**wrapper for content sections**/
+.content-wapper {
+	border-bottom: solid $divider 0.1rem;
+	h2 {
+		width:50%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
 
 /**Styles for individual sections**/

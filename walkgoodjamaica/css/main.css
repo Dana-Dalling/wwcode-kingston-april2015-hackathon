@@ -1,5 +1,21 @@
-/* line 3, ../sass/main.scss */
+/**Global styles**/
+/**Headings**/
+/* line 7, ../sass/main.scss */
 h1, h2, h3 {
   border-left: solid #feda31 0.4rem;
   padding: 0 0 0 0.5rem;
 }
+
+/**wrapper for content sections**/
+/* line 13, ../sass/main.scss */
+.content-wapper {
+  border-bottom: solid #F1F1F1 0.1rem;
+}
+/* line 15, ../sass/main.scss */
+.content-wapper h2 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**Styles for individual sections**/
