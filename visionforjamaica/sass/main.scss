@@ -1,5 +1,5 @@
 @import "color.scss";
-<<<<<<< HEAD
+
   
  
 
@@ -9,6 +9,8 @@ h2 {
 	text-align: center;
 	color: white;
 	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
 
 }
 
@@ -17,27 +19,28 @@ h3 {
 	text-align: center;
 	color: white;
 	text-transform: uppercase;
+	font-size: 1.2rem;
 }
 p {
 	color: white;
 	font-weight: 300;
 	text-align: center;
+	padding-top: 2rem;
 }
 /** Icon Sections**/
 
 /**section styles**/
 .what-we-do{
 	background-color: #464646;
-	padding: 4rem 0;
+	padding: 5rem 0;
 	img{
-		padding-top: 3rem;
+		padding-top: 4rem;
+		padding-bottom: 1rem;
 	}
 }
-
-=======
 
 .header{
   background: url('img/hero.jpg') no-repeat;
   height: 40rem;
 }
->>>>>>> d3711993eedb65855770a3e5e669390d693bd700
+
