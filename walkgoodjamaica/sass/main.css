@@ -1,0 +1,33 @@
+.report-header {
+  margin: 2rem; }
+  .report-header h3 {
+    text-align: center; }
+
+.icons {
+  min-height: 2rem; }
+
+/**Global styles**/
+/**Headings**/
+h1, h2, h3 {
+  border-left: solid #feda31 0.4rem;
+  padding: 0 0 0 0.5rem; }
+
+/**Styles for individual sections**/
+/**Styles for footer sections*/
+.footer {
+  background: #4eba6e;
+  padding: 0.5rem 0;
+  color: #ffffff !important; }
+  .footer h6 {
+    border-left: solid 3px #feda31;
+    padding-left: 0.3rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem; }
+  .footer p {
+    font-weight: 300;
+    font-size: 0.85rem;
+    margin-left: 0.5rem; }
+
+/*# sourceMappingURL=main.css.map */
