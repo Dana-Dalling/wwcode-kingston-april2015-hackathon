@@ -1,0 +1,70 @@
+/* line 3, ../sass/main.scss */
+.report-header {
+  margin: 2rem;
+}
+/* line 5, ../sass/main.scss */
+.report-header h3 {
+  text-align: center;
+}
+
+/* line 10, ../sass/main.scss */
+.icons {
+  min-height: 2rem;
+}
+
+/**Global styles**/
+/**Headings**/
+/* line 18, ../sass/main.scss */
+h1, h2, h3 {
+  border-left: solid #feda31 0.4rem;
+  padding: 0 0 0 0.5rem;
+}
+
+/* line 22, ../sass/main.scss */
+h2 {
+  font-weight: bold;
+}
+
+/* line 27, ../sass/main.scss */
+h1.header-h1 {
+  border-left: none !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+
+/* line 33, ../sass/main.scss */
+header h2.right {
+  border-left: none;
+  font-size: 2rem;
+}
+
+/* line 37, ../sass/main.scss */
+.top-bar {
+  background: #4eba6e;
+}
+
+/* line 40, ../sass/main.scss */
+.top-bar-section ul li {
+  background: #4eba6e;
+}
+
+/* line 44, ../sass/main.scss */
+#header-img {
+  background: url(../img/placeholder-hero-img.jpg) no-repeat;
+  width: 100%;
+  height: 65rem;
+}
+
+/* line 49, ../sass/main.scss */
+#yellow-background {
+  background: rgba(254, 218, 49, 0.89);
+  padding: 15px;
+  margin-top: 35rem;
+}
+
+/* line 57, ../sass/main.scss */
+.no-margin {
+  margin-left: 0rem;
+}
+
+/**Styles for individual sections**/
