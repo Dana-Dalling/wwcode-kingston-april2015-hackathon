@@ -37,6 +37,7 @@ a:hover {
 /** Icon Sections**/
 /**section styles**/
 /* line 40, ../sass/main.scss */
+<<<<<<< HEAD
 
 /* line 32, ../sass/main.scss */
 p {
@@ -58,10 +59,13 @@ p {
 /* line 37, ../sass/main.scss */
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 38, ../sass/main.scss */
 =======
@@ -73,10 +77,14 @@ p {
 /* line 40, ../sass/main.scss */
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 43, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 42, ../sass/main.scss */
 =======
@@ -95,6 +103,9 @@ D
 /* line 44, ../sass/main.scss */
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 47, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .what-we-do p {
   color: white;
   font-weight: 300;
@@ -102,6 +113,7 @@ D
   padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 51, ../sass/main.scss */
 =======
@@ -113,12 +125,16 @@ D
 /* line 53, ../sass/main.scss */
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 56, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
 }
 
 /* vision and mission section styling */
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 57, ../sass/main.scss */
 .vision-header h2 {
@@ -127,11 +143,14 @@ D
 /* line 61, ../sass/main.scss */
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 /* line 62, ../sass/main.scss */
 .vision-header h2 {
   text-align: center;
 }
 /* line 66, ../sass/main.scss */
+<<<<<<< HEAD
 
 /* line 70, ../sass/main.scss */
 .vision-header h2 {
@@ -146,11 +165,14 @@ D
 /* line 63, ../sass/main.scss */
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .vision-header p {
   font-size: 1em;
 }
 
 /* Contact section styling */
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 70, ../sass/main.scss */
 =======
@@ -162,12 +184,16 @@ D
 /* line 72, ../sass/main.scss */
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 75, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 78, ../sass/main.scss */
 =======
@@ -179,6 +205,9 @@ D
 /* line 80, ../sass/main.scss */
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 81, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -188,6 +217,7 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 89, ../sass/main.scss */
 =======
@@ -199,18 +229,21 @@ button.expand, .button.expand {
 
 /* line 93, ../sass/main.scss */
 
+=======
+/* line 90, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .contact-section h4 {
   text-align: left;
   padding-left: 4rem;
   color: #fff;
 }
 
-/* line 97, ../sass/main.scss */
-
+/* line 95, ../sass/main.scss */
 .text-align p {
   text-align: center !important;
 }
 
+<<<<<<< HEAD
 .contact-section p {
 
 /* line 91, ../sass/main.scss */
@@ -220,12 +253,16 @@ p.center-text {
 
 
 /* line 100, ../sass/main.scss */
+=======
+/* line 98, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .contact-section p {
   color: white;
   text-align: left;
   padding-left: 4rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 92, ../sass/main.scss */
 =======
@@ -241,11 +278,15 @@ p.center-text {
 
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 104, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 97, ../sass/main.scss */
 =======
@@ -261,6 +302,9 @@ p.center-text {
 
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 109, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -283,6 +327,7 @@ textarea {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 116, ../sass/main.scss */
 =======
 
@@ -297,34 +342,38 @@ textarea {
 
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 129, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 textarea {
   margin-top: .5rem;
   height: 20rem;
 }
 
-/* line 136, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 ::-webkit-input-placeholder {
   color: #464646;
 }
 
-/* line 140, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: #464646;
 }
 
-/* line 144, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #464646;
 }
 
-/* line 148, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 :-ms-input-placeholder {
   color: #464646;
 }
 
 /** Recent Schools section styling**/
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 123, ../sass/main.scss */
 =======
@@ -340,11 +389,15 @@ textarea {
 
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 151, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 128, ../sass/main.scss */
 =======
@@ -360,10 +413,14 @@ textarea {
 
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 156, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* line 131, ../sass/main.scss */
 =======
@@ -379,6 +436,9 @@ textarea {
 
 
 >>>>>>> 2262c8e5d320608be8f13ed5d73f1a6785715c18
+=======
+/* line 159, ../sass/main.scss */
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 .recent-school-white-bg h4 {
   margin-top: 1rem;
   color: #464646;

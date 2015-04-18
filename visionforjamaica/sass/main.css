@@ -147,6 +147,7 @@ textarea {
 
 textarea {
   margin-top: .5rem;
+<<<<<<< HEAD
   height: 20rem; }
 
 ::-webkit-input-placeholder {
@@ -162,6 +163,10 @@ textarea {
 
 :-ms-input-placeholder {
   color: #464646; }
+=======
+  height: 15rem; 
+}
+>>>>>>> 6b4f4ac7eb7cce61f8e5cb3660df7881fce3c5ec
 
 /** Recent Schools section styling**/
 .recent-schools-container {
