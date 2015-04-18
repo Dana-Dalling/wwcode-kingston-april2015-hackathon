@@ -1,0 +1,113 @@
+/** Header for What We Do Section**/
+/* line 8, ../sass/main.scss */
+h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/**paragraph**/
+/* line 18, ../sass/main.scss */
+h3 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+/* line 24, ../sass/main.scss */
+p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/** Icon Sections**/
+/**section styles**/
+/* line 33, ../sass/main.scss */
+.what-we-do {
+  background-color: #464646;
+  padding: 5rem 0;
+}
+/* line 36, ../sass/main.scss */
+.what-we-do img {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+/* line 42, ../sass/main.scss */
+.header {
+  background: url("img/hero.jpg") no-repeat;
+  height: 40rem;
+}
+
+/* Contact section styling */
+/* line 49, ../sass/main.scss */
+.contact-section {
+  background: #3c5499;
+  padding-top: 5rem;
+  color: #fff;
+}
+
+/* line 57, ../sass/main.scss */
+button.expand, .button.expand {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  background: #45ae62;
+  border-radius: .3rem;
+  font-size: 1.2rem;
+}
+
+/* line 68, ../sass/main.scss */
+p.center-text {
+  text-align: center;
+}
+
+/* line 71, ../sass/main.scss */
+.add-padding {
+  padding-top: 3rem;
+}
+
+/* Form styles */
+/* line 76, ../sass/main.scss */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea {
+  border-radius: .3rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 95, ../sass/main.scss */
+textarea {
+  margin-top: .5rem;
+}
+
+/** Recent Schools section styling**/
+/* line 101, ../sass/main.scss */
+.recent-schools-container {
+  background: #45ae62;
+  padding: 2rem 0;
+}
+
+/* line 106, ../sass/main.scss */
+.recent-school-white-bg {
+  background: #ffffff;
+  padding-top: 0.9rem;
+}

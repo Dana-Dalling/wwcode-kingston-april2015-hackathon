@@ -1,6 +1,110 @@
 @import "color.scss";
 
+  
+ 
+
+  
+/** Header for What We Do Section**/
+h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
+
+}
+
+/**paragraph**/
+h3 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+p {
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 2rem;
+}
+/** Icon Sections**/
+
+/**section styles**/
+.what-we-do{
+	background-color: #464646;
+	padding: 5rem 0;
+	img{
+		padding-top: 4rem;
+		padding-bottom: 1rem;
+	}
+}
+
 .header{
   background: url('img/hero.jpg') no-repeat;
   height: 40rem;
 }
+
+
+/* Contact section styling */
+.contact-section {
+	background: $main-blue;
+	padding-top:5rem;
+	color:#fff;
+}
+
+
+
+button.expand, .button.expand {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  background: $main-green;
+  border-radius: .3rem;
+  font-size: 1.2rem;
+}
+
+
+
+p.center-text {
+	text-align:center;
+}
+.add-padding {
+	padding-top:3rem;
+}
+
+/* Form styles */
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="month"], 
+input[type="week"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"], 
+input[type="color"], 
+textarea {
+   	border-radius: .3rem;
+   	padding: 1.5rem;
+   	margin-bottom: 1.5rem;
+}
+textarea {
+	margin-top: .5rem;
+}
+
+/** Recent Schools section styling**/
+
+.recent-schools-container{
+  background: $main-green;
+  padding: 2rem 0;
+}
+
+.recent-school-white-bg{
+  background: #ffffff;
+  padding-top: 0.9rem;
+}
+
