@@ -1,5 +1,16 @@
 @import "color";
 
+.report-header{
+	 margin:2rem;
+	h3{
+	 text-align:center;
+	 
+	}
+}
+.icons{
+	min-height:2rem;
+}
+
 
 /**Global styles**/
 
@@ -8,6 +19,7 @@ h1, h2, h3 {
 	border-left: solid $main-yellow 0.4rem;
 	padding: 0 0 0 0.5rem;
 }
+
 
 
 h1.header-h1 {
@@ -35,4 +47,6 @@ h1.header-h1 {
 
 
 /**Styles for individual sections**/
+
+
 
