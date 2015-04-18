@@ -49,6 +49,18 @@ p {
   background: url('img/hero.jpg') no-repeat;
   height: 40rem;
 }
+/* vision and mission section styling */
+.vision-header{
+	h2{
+
+		text-align:center;
+	}
+	p{
+		font-size:1em;
+		text-align:center;
+	}
+}
+
 
 
 /* Contact section styling */
@@ -114,4 +126,5 @@ textarea {
   background: #ffffff;
   padding-top: 0.9rem;
 }
+
 

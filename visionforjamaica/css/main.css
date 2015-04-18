@@ -51,15 +51,33 @@ p {
   height: 40rem;
 }
 
+/* vision and mission section styling */
+/* line 48, ../sass/main.scss */
+.vision-header h2 {
+  text-align: center;
+}
+/* line 52, ../sass/main.scss */
+.vision-header p {
+  font-size: 1em;
+  text-align: center;
+}
+
 /* Contact section styling */
+<<<<<<< HEAD
 /* line 55, ../sass/main.scss */
+
+/* line 61, ../sass/main.scss */
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
+
 /* line 63, ../sass/main.scss */
+
+/* line 69, ../sass/main.scss */
+
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -69,18 +87,30 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
+
 /* line 74, ../sass/main.scss */
+
+/* line 80, ../sass/main.scss */
+
 p.center-text {
   text-align: center;
 }
 
+
 /* line 77, ../sass/main.scss */
+
+/* line 83, ../sass/main.scss */
+
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
+
 /* line 82, ../sass/main.scss */
+
+/* line 88, ../sass/main.scss */
+
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -101,20 +131,32 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
+
 /* line 101, ../sass/main.scss */
+
+/* line 107, ../sass/main.scss */
+
 textarea {
   margin-top: .5rem;
   height: 15rem;
 }
 
 /** Recent Schools section styling**/
+
 /* line 108, ../sass/main.scss */
+
+/* line 113, ../sass/main.scss */
+
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
+
 /* line 113, ../sass/main.scss */
+
+/* line 118, ../sass/main.scss */
+
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
