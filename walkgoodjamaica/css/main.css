@@ -1,0 +1,13 @@
+/* line 1, ../sass/main.scss */
+.report-header {
+  margin: 2rem;
+}
+/* line 3, ../sass/main.scss */
+.report-header h3 {
+  text-align: center;
+}
+
+/* line 8, ../sass/main.scss */
+.icons {
+  min-height: 2rem;
+}
