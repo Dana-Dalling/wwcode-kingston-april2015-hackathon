@@ -1,6 +1,5 @@
 @import "color";
 
-
 /**Global styles**/
 a {
   letter-spacing: .02rem;
@@ -10,6 +9,10 @@ a {
 h1, h2, h3, h6 {
 	/*border-left: solid $main-yellow 0.4rem;*/
 	padding: 0 0 0 0.5rem;
+   font-weight: bold;
+}
+h2 {
+	font-weight: bold;
 	margin-bottom:2rem;
 	font-weight:600;
 	text-align:center;
@@ -111,7 +114,13 @@ header h2.right {
 /**Styles for individual sections**/
 
 /**Styles for report section**/
-#forth-icon-section{
+.report-info{
+	img{
+		padding-bottom:0.9rem;
+	}
+}
+
+#fourth-icon-section{
 	padding-top:1rem;
 }
 

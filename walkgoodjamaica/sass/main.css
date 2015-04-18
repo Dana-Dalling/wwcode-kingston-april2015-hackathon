@@ -1,0 +1,41 @@
+/*
+Error: Invalid CSS after "...691e093d80540bd": expected "{", was ""
+        on line 115 of main.scss
+
+110: 
+111: /**Styles for About Us sections**\/
+112: 
+113: }
+114: >>>>>>> 2d16fe18ead05af29579da426691e093d80540bd
+
+Backtrace:
+main.scss:115
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/bin/scss:13:in `<top (required)>'
+/Users/danadalling/.rbenv/versions/2.1.4/bin/scss:23:in `load'
+/Users/danadalling/.rbenv/versions/2.1.4/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...691e093d80540bd\": expected \"{\", was \"\"\A         on line 115 of main.scss\A \A 110: \A 111: /**Styles for About Us sections**/\A 112: \A 113: }\A 114: >>>>>>> 2d16fe18ead05af29579da426691e093d80540bd"; }
