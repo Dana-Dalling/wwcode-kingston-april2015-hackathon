@@ -1,0 +1,16 @@
+/* line 3, ../sass/main.scss */
+.header {
+  background: url("img/hero.jpg") no-repeat;
+  height: 40rem;
+}
+
+/* line 8, ../sass/main.scss */
+.vision-header h2 {
+  border-bottom: 0.4rem solid #45ae62;
+  text-align: center;
+}
+/* line 12, ../sass/main.scss */
+.vision-header p {
+  font-size: 1em;
+  text-align: center;
+}
