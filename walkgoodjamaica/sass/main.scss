@@ -22,9 +22,32 @@ h1, h2, h3 {
 }
 
 
+
+h1.header-h1 {
+  border-left: none !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+.top-bar {
+	background: $main-green;
+}
+.top-bar-section ul li {
+  background: $main-green;
+}
+
+#header-img {
+	background: url(../img/placeholder-hero-img.jpg) no-repeat;
+  	width: 100%;
+  	height: 60rem;
+}
+
+
+
+
+
+
+
 /**Styles for individual sections**/
-
-
 
 
 
@@ -50,3 +73,4 @@ h1, h2, h3 {
   }
 }
 
+>>>>>>> 5cd992306b7ded3ecbecd7130277e7895a085a33
