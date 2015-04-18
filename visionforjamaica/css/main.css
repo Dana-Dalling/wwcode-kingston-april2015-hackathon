@@ -24,19 +24,29 @@ h4 {
   text-align: center;
 }
 
+/* line 31, ../sass/main.scss */
+a {
+  color: #fff;
+}
+
+/* line 34, ../sass/main.scss */
+a:hover {
+  color: #45ae62;
+}
+
 /** Icon Sections**/
 /**section styles**/
-/* line 37, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
-/* line 40, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
-/* line 44, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .what-we-do p {
   color: white;
   font-weight: 300;
@@ -44,31 +54,31 @@ h4 {
   padding-top: 1rem;
 }
 
-/* line 53, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
 }
 
 /* vision and mission section styling */
-/* line 59, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .vision-header h2 {
   text-align: center;
 }
-/* line 63, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 .vision-header p {
   font-size: 1em;
 }
 
 /* Contact section styling */
-/* line 72, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 83, ../sass/main.scss */
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -78,40 +88,32 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
-
-/* line 93, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .contact-section h4 {
   text-align: left;
   padding-left: 4rem;
+  color: #fff;
 }
 
 /* line 97, ../sass/main.scss */
+.text-align p {
+  text-align: center !important;
+}
+
+/* line 100, ../sass/main.scss */
 .contact-section p {
-
-/* line 91, ../sass/main.scss */
-p.center-text {
-
-  text-align: center;
   color: white;
   text-align: left;
   padding-left: 4rem;
 }
 
-
-/* line 103, ../sass/main.scss */
-
-/* line 94, ../sass/main.scss */
-
+/* line 106, ../sass/main.scss */
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
-
-/* line 108, ../sass/main.scss */
-
-/* line 99, ../sass/main.scss */
-
+/* line 111, ../sass/main.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -133,63 +135,47 @@ textarea {
   background: #ebebeb;
 }
 
-
-/* line 128, ../sass/main.scss */
-
-/* line 118, ../sass/main.scss */
-
+/* line 131, ../sass/main.scss */
 textarea {
   margin-top: .5rem;
-  height: 15rem;
+  height: 20rem;
 }
 
-/* line 133, ../sass/main.scss */
+/* line 136, ../sass/main.scss */
 ::-webkit-input-placeholder {
   color: #464646;
 }
 
-/* line 137, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: #464646;
 }
 
-/* line 141, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #464646;
 }
 
-/* line 145, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 :-ms-input-placeholder {
   color: #464646;
 }
 
 /** Recent Schools section styling**/
-
-/* line 152, ../sass/main.scss */
-
-/* line 125, ../sass/main.scss */
-
+/* line 155, ../sass/main.scss */
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
-
-/* line 157, ../sass/main.scss */
-
-/* line 130, ../sass/main.scss */
-
+/* line 160, ../sass/main.scss */
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
-
-/* line 160, ../sass/main.scss */
-
-/* line 133, ../sass/main.scss */
-
+/* line 163, ../sass/main.scss */
 .recent-school-white-bg h4 {
   margin-top: 1rem;
 }
