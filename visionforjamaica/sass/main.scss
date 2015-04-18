@@ -1,4 +1,7 @@
 @import "color.scss";
+.row, .top-bar{
+  min-width: 72.5rem;
+}
 
   
  
@@ -21,7 +24,6 @@ h3 {
 	text-transform: uppercase;
 	font-size: 1.2rem;
 }
-
 
 h4 {
 	color: #fff;
@@ -54,9 +56,79 @@ a:hover {
 }
 
 .header{
-  background: url('img/hero.jpg') no-repeat;
+  background: url('../img/hero.jpg') no-repeat;
   height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1{
+    color: #ffffff;
+    line-height: 125%;
+    font-weight: bold;
+    font-size: 2.7rem;
+  }
+
+  p{
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
+
+  .contain-to-grid, .top-bar{
+    background: none !important;
+  }
+
+  .top-bar-section{
+    ul{
+      background: none !important;
+      li{
+        background: none !important;
+        &.active{
+          background-color: $main-green !important;
+          border-radius: 3px;
+        }
+        a{
+          background: none !important;
+          padding: 0.5rem 1rem !important;
+          line-height: 1.25rem !important;
+        }
+      }
+    }
+  }
+  .contain-to-grid{
+    padding: 2em 0;
+  }
+
+  .name{
+    a{
+      color: #ffffff;
+    }
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .content-text{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .hero-btn{
+    margin-right: 1em;
+    button{
+      padding: 1.5rem 2rem;
+      font-weight: 600;
+      border-radius: 4px;
+    }
+  }
+
+  .become-a-volunteer{
+    background-color: #feda31;
+  }
+
+  .make-a-donation{
+    background-color: $main-green;
+  }
 }
+
 /* vision and mission section styling */
 .vision-header{
 	h2{
@@ -70,7 +142,7 @@ a:hover {
 		text-align:center;	
 
  }
-}
+
 
 
 
@@ -80,8 +152,6 @@ a:hover {
 	padding-top:5rem;
 	color:#fff;
 }
-
-
 
 button.expand, .button.expand {
   padding-right: 0;
@@ -151,8 +221,6 @@ textarea {
 :-ms-input-placeholder {  
    color: $dark-grey-background;  
 }
-
-
 /** Recent Schools section styling**/
 
 .recent-schools-container{
@@ -165,5 +233,11 @@ textarea {
   padding-top: 0.9rem;
   h4{
     margin-top: 1rem;
+    color: #464646;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  p{
+    color: #686868;
   }
 }
