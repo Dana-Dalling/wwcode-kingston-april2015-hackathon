@@ -1,53 +1,183 @@
-/*
-Error: Invalid CSS after "...nt-weight: bold": expected "{", was ";"
-        on line 38 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss
+/**styles for  report section**/
+/* line 4, ../sass/main.scss */
+.report-header {
+  margin: 3rem;
+}
+/* line 6, ../sass/main.scss */
+.report-header h3 {
+  color: #242424;
+}
 
-33: /**Headings**\/
-34: h1, h2, h3, h6 {
-35: 	/*border-left: solid $main-yellow 0.4rem;*\/
-36: 	padding: 0 0 0 0.5rem;
-37: <<<<<<< HEAD
-38:    font-weight: bold;
-39: }
-40: h2 {
-41: 	font-weight: bold;
-42: 	margin-bottom:2rem;
-43: 	font-weight:600;
+/* line 11, ../sass/main.scss */
+.report-info h5 {
+  color: #242424;
+  margin: 0;
+}
+/* line 15, ../sass/main.scss */
+.report-info p {
+  font-size: 0.9rem;
+  color: #545454;
+}
+/* line 19, ../sass/main.scss */
+.report-info img {
+  padding-bottom: 0.9rem;
+}
 
-Backtrace:
-C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss:38
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...nt-weight: bold\": expected \"{\", was \";\"\A         on line 38 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss\A \A 33: /**Headings**/\A 34: h1, h2, h3, h6 {\A 35: 	/*border-left: solid $main-yellow 0.4rem;*/\A 36: 	padding: 0 0 0 0.5rem;\A 37: <<<<<<< HEAD\A 38:    font-weight: bold;\A 39: }\A 40: h2 {\A 41: 	font-weight: bold;\A 42: 	margin-bottom:2rem;\A 43: 	font-weight:600;"; }
+/* line 24, ../sass/main.scss */
+#fourth-icon-section {
+  padding-top: 1rem;
+}
+
+/**Global styles**/
+/* line 29, ../sass/main.scss */
+a {
+  letter-spacing: .02rem;
+}
+
+/**Headings**/
+/* line 34, ../sass/main.scss */
+h1, h2, h3, h6 {
+  /*border-left: solid $main-yellow 0.4rem;*/
+  padding: 0 0 0 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  min-width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 46, ../sass/main.scss */
+h1:before, h2:before, h3:before, h6:before {
+  width: 0.3rem;
+  height: 90%;
+  content: "";
+  background-color: #feda31;
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  vertical-align: middle;
+}
+
+/**wrapper for content sections**/
+/* line 61, ../sass/main.scss */
+.content-wrapper {
+  border-bottom: solid #F1F1F1 0.1rem;
+  padding: 2rem 0 2rem 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 64, ../sass/main.scss */
+  .content-wrapper h3 {
+    margin-bottom: 4rem;
+  }
+}
+/* line 69, ../sass/main.scss */
+.content-wrapper .small-12 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 76, ../sass/main.scss */
+h1.header-h1 {
+  border-left: none !important;
+  font-size: 1.5rem !important;
+}
+
+/* line 81, ../sass/main.scss */
+header h2.right {
+  border-left: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 88, ../sass/main.scss */
+  .top-bar {
+    background: #4eba6e;
+    padding-top: .5rem;
+    padding-bottom: 3.3rem;
+  }
+}
+/* line 94, ../sass/main.scss */
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+  font-weight: bold;
+  padding: 0 4rem;
+}
+
+/* line 98, ../sass/main.scss */
+.top-bar-section ul li {
+  background: #4eba6e;
+}
+
+/* line 101, ../sass/main.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #4eba6e;
+  font-size: .9rem;
+  /*line-height: 2.125rem;
+  line-height: 2.3125rem;*/
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 108, ../sass/main.scss */
+  .top-bar-section ul {
+    padding-right: 3rem;
+  }
+}
+/* line 112, ../sass/main.scss */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: transparent;
+  background: transparent;
+  transition: all 0.5s ease;
+  padding-bottom: .02rem;
+  border-bottom: 3px solid #feda31;
+}
+
+/* line 119, ../sass/main.scss */
+.header-img {
+  background: url(../img/placeholder-hero-img.jpg) no-repeat;
+  width: 100%;
+  height: 50rem;
+}
+
+/* line 124, ../sass/main.scss */
+.yellow-background {
+  background: rgba(254, 218, 49, 0.89);
+  padding: 15px;
+  margin-top: 35rem;
+}
+
+/* line 129, ../sass/main.scss */
+.no-margin {
+  margin-left: 0rem;
+}
+
+/**Styles for individual sections**/
+/**Styles for report section**/
+/* line 138, ../sass/main.scss */
+#forth-icon-section {
+  padding-top: 1rem;
+}
+
+/**Styles for footer sections*/
+/* line 144, ../sass/main.scss */
+.footer {
+  background: #4eba6e;
+  padding: 3rem 0;
+  color: #ffffff !important;
+  /**Styles for About Us sections**/
+}
+/* line 148, ../sass/main.scss */
+.footer h6 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 153, ../sass/main.scss */
+.footer p {
+  font-weight: 300;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}

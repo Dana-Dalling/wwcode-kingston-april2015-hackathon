@@ -1,0 +1,83 @@
+/* line 2, ../sass/main.scss */
+.row, .top-bar {
+  min-width: 72.5rem;
+}
+
+/* line 5, ../sass/main.scss */
+.header {
+  background: url("../img/hero.jpg") no-repeat;
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 11, ../sass/main.scss */
+.header h1 {
+  color: #ffffff;
+  line-height: 125%;
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+/* line 18, ../sass/main.scss */
+.header p {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+/* line 23, ../sass/main.scss */
+.header .contain-to-grid, .header .top-bar {
+  background: none !important;
+}
+/* line 28, ../sass/main.scss */
+.header .top-bar-section ul {
+  background: none !important;
+}
+/* line 30, ../sass/main.scss */
+.header .top-bar-section ul li {
+  background: none !important;
+}
+/* line 32, ../sass/main.scss */
+.header .top-bar-section ul li.active {
+  background-color: #45ae62 !important;
+  border-radius: 3px;
+}
+/* line 36, ../sass/main.scss */
+.header .top-bar-section ul li a {
+  background: none !important;
+  padding: 0.5rem 1rem !important;
+  line-height: 1.25rem !important;
+}
+/* line 44, ../sass/main.scss */
+.header .contain-to-grid {
+  padding: 2em 0;
+}
+/* line 48, ../sass/main.scss */
+.header .name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/* line 49, ../sass/main.scss */
+.header .name a {
+  color: #ffffff;
+}
+/* line 56, ../sass/main.scss */
+.header .content-text {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+/* line 61, ../sass/main.scss */
+.header .hero-btn {
+  margin-right: 1em;
+}
+/* line 63, ../sass/main.scss */
+.header .hero-btn button {
+  padding: 1.5rem 2rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+/* line 70, ../sass/main.scss */
+.header .become-a-volunteer {
+  background-color: #feda31;
+}
+/* line 74, ../sass/main.scss */
+.header .make-a-donation {
+  background-color: #45ae62;
+}
