@@ -17,28 +17,27 @@ h3 {
   font-size: 1.2rem;
 }
 
-/* line 24, ../sass/main.scss */
-p {
-  color: white;
-  font-weight: 300;
-  text-align: center;
-  padding-top: 2rem;
-}
-
 /** Icon Sections**/
 /**section styles**/
-/* line 33, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
-/* line 36, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
+/* line 35, ../sass/main.scss */
+.what-we-do p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 1rem;
+}
 
-/* line 42, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
