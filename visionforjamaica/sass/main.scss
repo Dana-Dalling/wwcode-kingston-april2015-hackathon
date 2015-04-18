@@ -43,6 +43,70 @@ p {
   background: url('img/hero.jpg') no-repeat;
   height: 40rem;
 }
+/* vision and mission section styling */
+.vision-header{
+	h2{
+
+		text-align:center;
+	}
+	p{
+		font-size:1em;
+		text-align:center;
+	}
+}
+
+
+
+/* Contact section styling */
+.contact-section {
+	background: $main-blue;
+	padding-top:5rem;
+	color:#fff;
+}
+
+
+
+button.expand, .button.expand {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  background: $main-green;
+  border-radius: .3rem;
+  font-size: 1.2rem;
+}
+
+
+
+p.center-text {
+	text-align:center;
+}
+.add-padding {
+	padding-top:3rem;
+}
+
+/* Form styles */
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="month"], 
+input[type="week"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"], 
+input[type="color"], 
+textarea {
+   	border-radius: .3rem;
+   	padding: 1.5rem;
+   	margin-bottom: 1.5rem;
+}
+textarea {
+	margin-top: .5rem;
+}
 
 /** Recent Schools section styling**/
 
@@ -58,3 +122,8 @@ p {
     margin-top: 1rem;
   }
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f713f3987bbc3719a65d4e039a5a49f8dc812550
