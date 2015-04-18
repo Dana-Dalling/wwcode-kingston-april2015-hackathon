@@ -11,26 +11,31 @@
 /* line 11, ../sass/main.scss */
 .report-info h5 {
   color: #242424;
+  margin: 0;
 }
-/* line 14, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 .report-info p {
   font-size: 0.9rem;
   color: #545454;
 }
+/* line 19, ../sass/main.scss */
+.report-info img {
+  padding-bottom: 0.9rem;
+}
 
-/* line 20, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 #fourth-icon-section {
   padding-top: 1rem;
 }
 
 /**Global styles**/
-/* line 25, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 a {
   letter-spacing: .02rem;
 }
 
 /**Headings**/
-/* line 30, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 h1, h2, h3, h6 {
   border-left: solid #feda31 0.4rem;
   padding: 0 0 0 0.5rem;
@@ -39,48 +44,48 @@ h1, h2, h3, h6 {
 }
 
 /**wrapper for content sections**/
-/* line 38, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 .content-wrapper {
   border-bottom: solid #F1F1F1 0.1rem;
   padding: 1.2rem 0 1.2rem 0;
 }
-/* line 41, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .content-wrapper h2 {
   width: auto;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 46, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .content-wrapper .small-12 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 53, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 h1.header-h1 {
   border-left: none !important;
   font-size: 1.5rem !important;
   font-weight: bold;
 }
 
-/* line 59, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 header h2.right {
   border-left: none;
   font-size: 2rem;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .top-bar {
   background: #4eba6e;
 }
 
-/* line 66, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .top-bar-section ul li {
   background: #4eba6e;
 }
 
-/* line 69, ../sass/main.scss */
+/* line 73, ../sass/main.scss */
 .top-bar-section li:not(.has-form) a:not(.button) {
   padding: 0 0.9375rem;
   line-height: 2.125rem;
@@ -88,26 +93,26 @@ header h2.right {
   /*line-height: 2.3125rem;*/
 }
 
-/* line 76, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 #header-img {
   background: url(../img/placeholder-hero-img.jpg) no-repeat;
   width: 100%;
   height: 50rem;
 }
 
-/* line 81, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 #yellow-background {
   background: rgba(254, 218, 49, 0.89);
   padding: 15px;
   margin-top: 35rem;
 }
 
-/* line 86, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .no-margin {
   margin-left: 0rem;
 }
 
-/* line 90, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background-color: transparent;
   background: transparent;
@@ -118,25 +123,25 @@ header h2.right {
 
 /**Styles for individual sections**/
 /**Styles for report section**/
-/* line 102, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 .report-header {
   margin: 2rem;
 }
 
-/* line 107, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 #forth-icon-section {
   padding-top: 1rem;
 }
 
 /**Styles for footer sections*/
-/* line 113, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 .footer {
   background: #4eba6e;
   padding: 3rem 0;
   color: #ffffff !important;
   /**Styles for About Us sections**/
 }
-/* line 117, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 .footer h6 {
   padding-left: 0.3rem;
   color: #ffffff;
@@ -144,7 +149,7 @@ header h2.right {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-/* line 124, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .footer p {
   font-weight: 300;
   font-size: 0.85rem;
