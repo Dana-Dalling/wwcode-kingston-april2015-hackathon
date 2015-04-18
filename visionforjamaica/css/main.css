@@ -1,34 +1,44 @@
-/** Header for What We Do Section**/
-/* line 7, ../sass/main.scss */
-h2 {
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-}
+/*
+Error: Invalid CSS after "...669390d693bd700": expected "{", was ""
+        on line 44 of /Users/MACKINYI/Documents/wwcode-kingston-april2015-hackathon/visionforjamaica/sass/main.scss
 
-/**paragraph**/
-/* line 15, ../sass/main.scss */
-h3 {
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-}
+39: .header{
+40:   background: url('img/hero.jpg') no-repeat;
+41:   height: 40rem;
+42: }
+43: >>>>>>> d3711993eedb65855770a3e5e669390d693bd700
 
-/* line 20, ../sass/main.scss */
-p {
-  color: white;
-  font-weight: 300;
-  text-align: center;
-}
-
-/** Icon Sections**/
-/**section styles**/
-/* line 28, ../sass/main.scss */
-.what-we-do {
-  background-color: #464646;
-  padding: 4rem 0;
-}
-/* line 31, ../sass/main.scss */
-.what-we-do img {
-  padding-top: 3rem;
-}
+Backtrace:
+/Users/MACKINYI/Documents/wwcode-kingston-april2015-hackathon/visionforjamaica/sass/main.scss:44
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...669390d693bd700\": expected \"{\", was \"\"\A         on line 44 of /Users/MACKINYI/Documents/wwcode-kingston-april2015-hackathon/visionforjamaica/sass/main.scss\A \A 39: .header{\A 40:   background: url('img/hero.jpg') no-repeat;\A 41:   height: 40rem;\A 42: }\A 43: >>>>>>> d3711993eedb65855770a3e5e669390d693bd700"; }

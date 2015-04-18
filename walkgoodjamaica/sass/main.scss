@@ -1,30 +1,5 @@
 @import "color";
 
-/**styles for  report section**/
-.report-header{
-	 margin:3rem;
-	h3{
-	 color:#242424;
-	}
-}
-.report-info{
-	h5{
-	    color:#242424;
-	    margin:0;
-	}
-	p{
-     font-size:0.9rem;
-     color:#545454;
-	}
-	img{
-		padding-bottom:0.9rem;
-	}
-}
-
-#fourth-icon-section{
-	padding-top:1rem;
-}
-
 /**Global styles**/
 a {
   letter-spacing: .02rem;
@@ -34,10 +9,9 @@ a {
 h1, h2, h3, h6 {
 	/*border-left: solid $main-yellow 0.4rem;*/
 	padding: 0 0 0 0.5rem;
-<<<<<<< HEAD
    font-weight: bold;
 }
-h2 {
+h3 {
 	font-weight: bold;
 	margin-bottom:2rem;
 	font-weight:600;
@@ -65,11 +39,11 @@ h2 {
 /**wrapper for content sections**/
 .content-wrapper {
 	border-bottom: solid $divider 0.1rem;
-	padding:1.2rem 0 1.2rem 0;
-	h2 {
-		width:auto;
-		margin-left:auto;
-		margin-right:auto;
+	padding:2rem 0 2rem 0;
+	h3 {
+		@media only screen and (min-width: 40.063em) {
+			margin-bottom:4rem;
+			}
 	}
 	.small-12 img {
 		display:block;
@@ -140,7 +114,13 @@ header h2.right {
 /**Styles for individual sections**/
 
 /**Styles for report section**/
-#forth-icon-section{
+.report-info{
+	img{
+		padding-bottom:0.9rem;
+	}
+}
+
+#fourth-icon-section{
 	padding-top:1rem;
 }
 
