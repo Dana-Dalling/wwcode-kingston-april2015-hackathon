@@ -1,13 +1,23 @@
-/* line 1, ../sass/main.scss */
+/* line 3, ../sass/main.scss */
 .report-header {
   margin: 2rem;
 }
-/* line 3, ../sass/main.scss */
+/* line 5, ../sass/main.scss */
 .report-header h3 {
   text-align: center;
 }
 
-/* line 8, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 .icons {
   min-height: 2rem;
 }
+
+/**Global styles**/
+/**Headings**/
+/* line 18, ../sass/main.scss */
+h1, h2, h3 {
+  border-left: solid #feda31 0.4rem;
+  padding: 0 0 0 0.5rem;
+}
+
+/**Styles for individual sections**/
