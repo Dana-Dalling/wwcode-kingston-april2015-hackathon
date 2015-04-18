@@ -1,29 +1,33 @@
-/* line 3, ../sass/main.scss */
+/**Global styles**/
+/**Headings**/
+/* line 7, ../sass/main.scss */
 h1, h2, h3 {
   border-left: solid #feda31 0.4rem;
   padding: 0 0 0 0.5rem;
 }
 
-/* line 8, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 h1.header-h1 {
   border-left: none !important;
   font-size: 1.5rem !important;
   font-weight: bold;
 }
 
-/* line 13, ../sass/main.scss */
+/* line 18, ../sass/main.scss */
 .top-bar {
   background: #4eba6e;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .top-bar-section ul li {
   background: #4eba6e;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 #header-img {
   background: url(../img/placeholder-hero-img.jpg) no-repeat;
   width: 100%;
   height: 60rem;
 }
+
+/**Styles for individual sections**/
