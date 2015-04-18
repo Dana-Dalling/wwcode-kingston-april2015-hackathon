@@ -1,0 +1,31 @@
+/**Global styles**/
+/**Headings**/
+/* line 7, ../sass/main.scss */
+h1, h2, h3 {
+  border-left: solid #feda31 0.4rem;
+  padding: 0 0 0 0.5rem;
+}
+
+/**Styles for individual sections**/
+/**Styles for footer sections*/
+/* line 47, ../sass/main.scss */
+.footer {
+  background: #4eba6e;
+  padding: 0.5rem 0;
+  color: #ffffff !important;
+}
+/* line 51, ../sass/main.scss */
+.footer h6 {
+  border-left: solid 3px #feda31;
+  padding-left: 0.3rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 59, ../sass/main.scss */
+.footer p {
+  font-weight: 300;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
