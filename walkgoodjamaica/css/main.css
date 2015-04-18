@@ -142,20 +142,26 @@ header h2.right {
   padding-top: 1rem;
 }
 
+/**styles for team section**/
+/* line 127, ../sass/main.scss */
+.social {
+  display: inline-block;
+}
+
 /**Styles for footer sections*/
-/* line 128, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 .footer {
   background: #4eba6e;
   padding: 3rem 0;
   color: #ffffff !important;
 }
-/* line 132, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 .footer h6 {
   color: #ffffff;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-/* line 137, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 .footer p {
   font-weight: 300;
   font-size: 0.85rem;
@@ -164,22 +170,22 @@ header h2.right {
 
 /**Styles for team section**/
 @media only screen and (min-width: 40.063em) {
-  /* line 149, ../sass/main.scss */
+  /* line 154, ../sass/main.scss */
   .member {
     margin-bottom: 1.8rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 149, ../sass/main.scss */
+  /* line 154, ../sass/main.scss */
   .member {
     margin-bottom: 1.5rem;
   }
-  /* line 155, ../sass/main.scss */
+  /* line 160, ../sass/main.scss */
   .member h4 {
     margin-top: 0.3rem;
   }
 }
-/* line 159, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 .member .bio {
   margin-bottom: 0.5rem;
 }
