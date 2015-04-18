@@ -13,58 +13,100 @@
 }
 
 /**Global styles**/
+/* line 17, ../sass/main.scss */
+a {
+  letter-spacing: .02rem;
+}
+
 /**Headings**/
-/* line 18, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
 h1, h2, h3 {
   border-left: solid #feda31 0.4rem;
   padding: 0 0 0 0.5rem;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 h2 {
   font-weight: bold;
 }
 
-/* line 27, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 h1.header-h1 {
   border-left: none !important;
   font-size: 1.5rem !important;
   font-weight: bold;
 }
 
-/* line 33, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 header h2.right {
   border-left: none;
   font-size: 2rem;
 }
 
-/* line 37, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .top-bar {
   background: #4eba6e;
 }
 
-/* line 40, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .top-bar-section ul li {
   background: #4eba6e;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 0.9375rem;
+  line-height: 2.125rem;
+  background: #4EBA6E;
+  /*line-height: 2.3125rem;*/
+}
+
+/* line 54, ../sass/main.scss */
 #header-img {
   background: url(../img/placeholder-hero-img.jpg) no-repeat;
   width: 100%;
   height: 65rem;
 }
 
-/* line 49, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 #yellow-background {
   background: rgba(254, 218, 49, 0.89);
   padding: 15px;
   margin-top: 35rem;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .no-margin {
   margin-left: 0rem;
 }
 
+/* line 68, ../sass/main.scss */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: transparent;
+  background: transparent;
+  border-bottom: 3px solid #f9d438;
+}
+
 /**Styles for individual sections**/
+/**Styles for footer sections*/
+/* line 81, ../sass/main.scss */
+.footer {
+  background: #4eba6e;
+  padding: 0.5rem 0;
+  color: #ffffff !important;
+}
+/* line 85, ../sass/main.scss */
+.footer h6 {
+  border-left: solid 3px #feda31;
+  padding-left: 0.3rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 93, ../sass/main.scss */
+.footer p {
+  font-weight: 300;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}

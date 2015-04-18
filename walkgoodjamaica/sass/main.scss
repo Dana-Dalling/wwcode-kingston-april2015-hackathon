@@ -14,6 +14,9 @@
 
 
 /**Global styles**/
+a {
+  letter-spacing: .02rem;
+}
 
 /**Headings**/
 h1, h2, h3 {
@@ -41,6 +44,12 @@ header h2.right {
 .top-bar-section ul li {
   background: $main-green;
 }
+.top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 0.9375rem;
+   line-height: 2.125rem;
+  background: #4EBA6E;
+   /*line-height: 2.3125rem;*/
+  }
 
 #header-img {
 	background: url(../img/placeholder-hero-img.jpg) no-repeat;
@@ -52,11 +61,14 @@ header h2.right {
 	padding: 15px;
 	margin-top: 35rem;
 }
-
-
-
 .no-margin {
 	margin-left:0rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: transparent;
+  background: transparent;
+  border-bottom: 3px solid rgb(249, 212, 56);
 }
 
 
