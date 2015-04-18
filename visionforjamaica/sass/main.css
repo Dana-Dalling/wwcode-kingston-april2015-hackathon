@@ -1,41 +1,46 @@
-/*
-Error: Invalid CSS after "...783332f3fbbf863": expected "{", was ""
-        on line 61 of main.scss
+/** Header for What We Do Section**/
+h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem; }
 
-56:   background: #ffffff;
-57:   padding-top: 0.9rem;
-58: }
-59: =======
-60: >>>>>>> 5da308fa1591369562cc9bdfb783332f3fbbf863
+/**paragraph**/
+h3 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem; }
 
-Backtrace:
-main.scss:61
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin.rb:82:in `update_stylesheets'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-/Users/danadalling/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.13/bin/scss:13:in `<top (required)>'
-/Users/danadalling/.rbenv/versions/2.1.4/bin/scss:23:in `load'
-/Users/danadalling/.rbenv/versions/2.1.4/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...783332f3fbbf863\": expected \"{\", was \"\"\A         on line 61 of main.scss\A \A 56:   background: #ffffff;\A 57:   padding-top: 0.9rem;\A 58: }\A 59: =======\A 60: >>>>>>> 5da308fa1591369562cc9bdfb783332f3fbbf863"; }
+p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2rem; }
+
+/** Icon Sections**/
+/**section styles**/
+.what-we-do {
+  background-color: #464646;
+  padding: 5rem 0; }
+  .what-we-do img {
+    padding-top: 4rem;
+    padding-bottom: 1rem; }
+
+.header {
+  background: url("img/hero.jpg") no-repeat;
+  height: 40rem; }
+
+/** Recent Schools section styling**/
+.recent-schools-container {
+  background: #45ae62;
+  padding: 2rem 0; }
+
+.recent-school-white-bg {
+  background: #ffffff;
+  padding-top: 0.9rem; }
+  .recent-school-white-bg h4 {
+    margin-top: 1rem; }
+
+/*# sourceMappingURL=main.css.map */

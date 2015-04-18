@@ -1,0 +1,62 @@
+/** Header for What We Do Section**/
+/* line 8, ../sass/main.scss */
+h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/**paragraph**/
+/* line 18, ../sass/main.scss */
+h3 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+/* line 24, ../sass/main.scss */
+p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/** Icon Sections**/
+/**section styles**/
+/* line 33, ../sass/main.scss */
+.what-we-do {
+  background-color: #464646;
+  padding: 5rem 0;
+}
+/* line 36, ../sass/main.scss */
+.what-we-do img {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+/* line 42, ../sass/main.scss */
+.header {
+  background: url("img/hero.jpg") no-repeat;
+  height: 40rem;
+}
+
+/** Recent Schools section styling**/
+/* line 49, ../sass/main.scss */
+.recent-schools-container {
+  background: #45ae62;
+  padding: 2rem 0;
+}
+
+/* line 54, ../sass/main.scss */
+.recent-school-white-bg {
+  background: #ffffff;
+  padding-top: 0.9rem;
+}
+/* line 57, ../sass/main.scss */
+.recent-school-white-bg h4 {
+  margin-top: 1rem;
+}
