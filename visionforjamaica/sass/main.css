@@ -21,6 +21,11 @@ h3 {
   .what-we-do img {
     padding-top: 4rem;
     padding-bottom: 1rem; }
+  .what-we-do p {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2rem; }
 
 .header {
   background: url("img/hero.jpg") no-repeat;

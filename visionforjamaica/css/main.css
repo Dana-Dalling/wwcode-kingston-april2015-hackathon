@@ -19,43 +19,50 @@ h3 {
 
 /** Icon Sections**/
 /**section styles**/
-/* line 29, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
-/* line 32, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
+/* line 34, ../sass/main.scss */
+.what-we-do p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2rem;
+}
 
-/* line 38, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
 }
 
 /* vision and mission section styling */
-/* line 44, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 .vision-header h2 {
   text-align: center;
 }
-/* line 48, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .vision-header p {
   font-size: 1em;
   text-align: center;
 }
 
 /* Contact section styling */
-/* line 57, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
-/* line 65, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -65,18 +72,18 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
-/* line 76, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 p.center-text {
   text-align: center;
 }
 
-/* line 79, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
-/* line 84, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -97,24 +104,24 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
-/* line 103, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 textarea {
   margin-top: .5rem;
 }
 
 /** Recent Schools section styling**/
-/* line 109, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
-/* line 114, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
-/* line 117, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .recent-school-white-bg h4 {
   margin-top: 1rem;
 }
