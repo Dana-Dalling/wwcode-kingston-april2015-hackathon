@@ -4,3 +4,21 @@ h1, h2, h3 {
 	border-left: solid $main-yellow 0.4rem;
 	padding: 0 0 0 0.5rem;
 }
+
+h1.header-h1 {
+  border-left: none !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+.top-bar {
+	background: $main-green;
+}
+.top-bar-section ul li {
+  background: $main-green;
+}
+
+#header-img {
+	background: url(../img/placeholder-hero-img.jpg) no-repeat;
+  	width: 100%;
+  	height: 60rem;
+}
