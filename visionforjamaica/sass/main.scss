@@ -90,10 +90,15 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
-
-
-p.center-text {
+.contact-section h4 {
+ 	text-align: left;
+  	padding-left: 4rem;
+}
+.contact-section p {
 	text-align:center;
+	color: white;
+  	text-align: left;
+  	padding-left: 4rem;
 }
 .add-padding {
 	padding-top:3rem;
@@ -118,11 +123,29 @@ textarea {
    	border-radius: .3rem;
    	padding: 1.5rem;
    	margin-bottom: 1.5rem;
+   	background: rgb(235, 235, 235);
 }
 textarea {
 	margin-top: .5rem;	
     height: 15rem;
 }
+
+::-webkit-input-placeholder {
+   color: $dark-grey-background;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $dark-grey-background;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $dark-grey-background;  
+}
+
+:-ms-input-placeholder {  
+   color: $dark-grey-background;  
+}
+
 
 /** Recent Schools section styling**/
 

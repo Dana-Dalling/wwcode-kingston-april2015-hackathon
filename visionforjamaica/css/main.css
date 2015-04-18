@@ -87,18 +87,27 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
-/* line 95, ../sass/main.scss */
-p.center-text {
-  text-align: center;
+/* line 93, ../sass/main.scss */
+.contact-section h4 {
+  text-align: left;
+  padding-left: 4rem;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
+.contact-section p {
+  text-align: center;
+  color: white;
+  text-align: left;
+  padding-left: 4rem;
+}
+
+/* line 103, ../sass/main.scss */
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
-/* line 103, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -117,27 +126,50 @@ textarea {
   border-radius: .3rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  background: #ebebeb;
 }
 
-/* line 122, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 textarea {
   margin-top: .5rem;
   height: 15rem;
 }
 
+/* line 133, ../sass/main.scss */
+::-webkit-input-placeholder {
+  color: #464646;
+}
+
+/* line 137, ../sass/main.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #464646;
+}
+
+/* line 141, ../sass/main.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #464646;
+}
+
+/* line 145, ../sass/main.scss */
+:-ms-input-placeholder {
+  color: #464646;
+}
+
 /** Recent Schools section styling**/
-/* line 129, ../sass/main.scss */
+/* line 152, ../sass/main.scss */
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
-/* line 134, ../sass/main.scss */
+/* line 157, ../sass/main.scss */
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
-/* line 137, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 .recent-school-white-bg h4 {
   margin-top: 1rem;
 }
