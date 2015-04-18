@@ -9,71 +9,73 @@ a {
   letter-spacing: .02rem; }
 
 /**Headings**/
-h1, h2, h3 {
+h1, h2, h3, h6 {
   border-left: solid #feda31 0.4rem;
-  padding: 0 0 0 0.5rem; }
+  padding: 0 0 0 0.5rem;
+  margin-bottom: 2rem; }
 
-h2 {
-  font-weight: bold; }
-
-h1.header-h1 {
-  border-left: none !important;
-  font-size: 1.5rem !important;
-  font-weight: bold; }
-
-header h2.right {
-  border-left: none;
-  font-size: 2rem; }
-
-.top-bar {
-  background: #4eba6e; }
-
-.top-bar-section ul li {
-  background: #4eba6e; }
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-  padding: 0 0.9375rem;
-  line-height: 2.125rem;
-  background: #4EBA6E;
-  /*line-height: 2.3125rem;*/ }
-
-#header-img {
-  background: url(../img/placeholder-hero-img.jpg) no-repeat;
-  width: 100%;
-  height: 50rem; }
-
-#yellow-background {
-  background: rgba(254, 218, 49, 0.89);
-  padding: 15px;
-  margin-top: 35rem; }
-
-.no-margin {
-  margin-left: 0rem; }
-
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: transparent;
-  background: transparent;
-  transition: all 0.5s ease;
-  padding-bottom: .02rem;
-  border-bottom: 3px solid #feda31; }
-
-/**Styles for individual sections**/
-/**Styles for footer sections*/
-.footer {
-  background: #4eba6e;
-  padding: 3rem 0;
-  color: #ffffff !important; }
-  .footer h6 {
-    border-left: solid 3px #feda31;
-    padding-left: 0.3rem;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 1rem;
-    margin-bottom: 1rem; }
-  .footer p {
-    font-weight: 300;
-    font-size: 0.85rem;
-    margin-left: 0.5rem; }
+/**wrapper for content sections**/
+.content-wrapper {
+  border-bottom: solid #F1F1F1 0.1rem;
+  padding: 1.2rem 0 1.2rem 0;
+  /**Styles for individual sections**/
+  /**Styles for footer sections*/ }
+  .content-wrapper h2 {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto; }
+  .content-wrapper .small-12 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .content-wrapper h2 {
+    font-weight: bold; }
+  .content-wrapper h1.header-h1 {
+    border-left: none !important;
+    font-size: 1.5rem !important;
+    font-weight: bold; }
+  .content-wrapper header h2.right {
+    border-left: none;
+    font-size: 2rem; }
+  .content-wrapper .top-bar {
+    background: #4eba6e; }
+  .content-wrapper .top-bar-section ul li {
+    background: #4eba6e; }
+  .content-wrapper .top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 0.9375rem;
+    line-height: 2.125rem;
+    background: #4EBA6E;
+    /*line-height: 2.3125rem;*/ }
+  .content-wrapper #header-img {
+    background: url(../img/placeholder-hero-img.jpg) no-repeat;
+    width: 100%;
+    height: 50rem; }
+  .content-wrapper #yellow-background {
+    background: rgba(254, 218, 49, 0.89);
+    padding: 15px;
+    margin-top: 35rem; }
+  .content-wrapper .no-margin {
+    margin-left: 0rem; }
+  .content-wrapper .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: transparent;
+    background: transparent;
+    transition: all 0.5s ease;
+    padding-bottom: .02rem;
+    border-bottom: 3px solid #feda31; }
+  .content-wrapper .footer {
+    background: #4eba6e;
+    padding: 3rem 0;
+    color: #ffffff !important; }
+    .content-wrapper .footer h6 {
+      padding-left: 0.3rem;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 1rem; }
+    .content-wrapper .footer p {
+      font-weight: 300;
+      font-size: 0.85rem;
+      margin-left: 0.5rem; }
 
 /**Styles for About Us sections**/
 
