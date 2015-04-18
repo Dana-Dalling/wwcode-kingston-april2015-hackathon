@@ -1,10 +1,50 @@
 @import "color.scss";
 
+  
+ 
+
+  
+/** Header for What We Do Section**/
+h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2rem;
+
+}
+
+/**paragraph**/
+h3 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+p {
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 2rem;
+}
+/** Icon Sections**/
+
+/**section styles**/
+.what-we-do{
+	background-color: #464646;
+	padding: 5rem 0;
+	img{
+		padding-top: 4rem;
+		padding-bottom: 1rem;
+	}
+}
+
 .header{
   background: url('img/hero.jpg') no-repeat;
   height: 40rem;
 }
 
+<<<<<<< HEAD
 /* Contact section styling */
 .contact-section {
 	background: $main-blue;
@@ -55,3 +95,4 @@ textarea {
 textarea {
 	margin-top: .5rem;
 }
+
