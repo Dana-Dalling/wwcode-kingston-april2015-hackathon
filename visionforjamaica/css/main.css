@@ -24,19 +24,79 @@ h4 {
   text-align: center;
 }
 
+<<<<<<< HEAD
 /** Icon Sections**/
 /**section styles**/
 /* line 37, ../sass/main.scss */
+=======
+/* line 31, ../sass/main.scss */
+a {
+  color: #fff;
+}
+
+/* line 34, ../sass/main.scss */
+a:hover {
+  color: #45ae62;
+}
+
+/** Icon Sections**/
+/**section styles**/
+/* line 40, ../sass/main.scss */
+
+/* line 32, ../sass/main.scss */
+p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/** Icon Sections**/
+/**section styles**/
+/* line 42, ../sass/main.scss */
+
+/** Icon Sections**/
+/**section styles**/
+/* line 37, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .what-we-do {
   background-color: #464646;
   padding: 5rem 0;
 }
+<<<<<<< HEAD
 /* line 40, ../sass/main.scss */
+=======
+
+/* line 43, ../sass/main.scss */
+
+/* line 45, ../sass/main.scss */
+
+/* line 40, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .what-we-do img {
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
+<<<<<<< HEAD
 /* line 44, ../sass/main.scss */
+=======
+
+/* line 47, ../sass/main.scss */
+D
+/* line 49, ../sass/main.scss */
+.what-we-do p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 1rem;
+}
+/* line 55, ../sass/main.scss */
+
+/* line 44, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .what-we-do p {
   color: white;
   font-weight: 300;
@@ -44,33 +104,83 @@ h4 {
   padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 /* line 53, ../sass/main.scss */
+=======
+
+/* line 56, ../sass/main.scss */
+
+/* line 64, ../sass/main.scss */
+
+/* line 53, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .header {
   background: url("img/hero.jpg") no-repeat;
   height: 40rem;
 }
 
 /* vision and mission section styling */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* line 62, ../sass/main.scss */
+.vision-header h2 {
+  text-align: center;
+}
+/* line 66, ../sass/main.scss */
+
+/* line 70, ../sass/main.scss */
+.vision-header h2 {
+  text-align: center;
+}
+/* line 74, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 /* line 59, ../sass/main.scss */
 .vision-header h2 {
   text-align: center;
   color: #464646 !important;
 }
 /* line 63, ../sass/main.scss */
+<<<<<<< HEAD
+=======
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .vision-header p {
   font-size: 1rem;
   text-align: center;
 }
 
 /* Contact section styling */
+<<<<<<< HEAD
 /* line 73, ../sass/main.scss */
+=======
+
+/* line 75, ../sass/main.scss */
+
+/* line 83, ../sass/main.scss */
+
+/* line 72, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .contact-section {
   background: #3c5499;
   padding-top: 5rem;
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 81, ../sass/main.scss */
+=======
+
+/* line 83, ../sass/main.scss */
+
+/* line 91, ../sass/main.scss */
+
+/* line 80, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
@@ -80,27 +190,85 @@ button.expand, .button.expand {
   font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
 /* line 90, ../sass/main.scss */
+=======
+
+/* line 92, ../sass/main.scss */
+
+/* line 102, ../sass/main.scss */
+
+
+/* line 93, ../sass/main.scss */
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .contact-section h4 {
   text-align: left;
   padding-left: 4rem;
+  color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 94, ../sass/main.scss */
 .contact-section p {
   text-align: center;
+=======
+/* line 97, ../sass/main.scss */
+
+.text-align p {
+  text-align: center !important;
+}
+
+.contact-section p {
+
+/* line 91, ../sass/main.scss */
+
+p.center-text {
+
+
+/* line 100, ../sass/main.scss */
+.contact-section p {
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
   color: white;
   text-align: left;
   padding-left: 4rem;
 }
 
+<<<<<<< HEAD
 /* line 100, ../sass/main.scss */
+=======
+
+/* line 106, ../sass/main.scss */
+
+/* line 105, ../sass/main.scss */
+
+
+/* line 103, ../sass/main.scss */
+
+/* line 94, ../sass/main.scss */
+
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .add-padding {
   padding-top: 3rem;
 }
 
 /* Form styles */
+<<<<<<< HEAD
 /* line 105, ../sass/main.scss */
+=======
+
+/* line 111, ../sass/main.scss */
+
+/* line 110, ../sass/main.scss */
+
+
+/* line 108, ../sass/main.scss */
+
+/* line 99, ../sass/main.scss */
+
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -122,47 +290,119 @@ textarea {
   background: #ebebeb;
 }
 
+<<<<<<< HEAD
 /* line 125, ../sass/main.scss */
+=======
+
+/* line 131, ../sass/main.scss */
+
+/* line 129, ../sass/main.scss */
+
+
+/* line 128, ../sass/main.scss */
+
+/* line 118, ../sass/main.scss */
+
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 textarea {
   margin-top: .5rem;
-  height: 15rem;
+  height: 20rem;
 }
 
+<<<<<<< HEAD
 /* line 130, ../sass/main.scss */
+=======
+/* line 136, ../sass/main.scss */
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 ::-webkit-input-placeholder {
   color: #464646;
 }
 
+<<<<<<< HEAD
 /* line 134, ../sass/main.scss */
+=======
+/* line 140, ../sass/main.scss */
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 :-moz-placeholder {
   /* Firefox 18- */
   color: #464646;
 }
 
+<<<<<<< HEAD
 /* line 138, ../sass/main.scss */
+=======
+/* line 144, ../sass/main.scss */
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #464646;
 }
 
+<<<<<<< HEAD
 /* line 142, ../sass/main.scss */
+=======
+/* line 148, ../sass/main.scss */
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 :-ms-input-placeholder {
   color: #464646;
 }
 
 /** Recent Schools section styling**/
+<<<<<<< HEAD
 /* line 149, ../sass/main.scss */
+=======
+
+/* line 155, ../sass/main.scss */
+
+/* line 136, ../sass/main.scss */
+
+
+/* line 152, ../sass/main.scss */
+
+/* line 125, ../sass/main.scss */
+
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .recent-schools-container {
   background: #45ae62;
   padding: 2rem 0;
 }
 
+<<<<<<< HEAD
 /* line 154, ../sass/main.scss */
+=======
+
+/* line 160, ../sass/main.scss */
+
+/* line 141, ../sass/main.scss */
+
+
+/* line 157, ../sass/main.scss */
+
+/* line 130, ../sass/main.scss */
+
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .recent-school-white-bg {
   background: #ffffff;
   padding-top: 0.9rem;
 }
+<<<<<<< HEAD
 /* line 157, ../sass/main.scss */
+=======
+
+/* line 163, ../sass/main.scss */
+
+/* line 144, ../sass/main.scss */
+
+
+/* line 160, ../sass/main.scss */
+
+/* line 133, ../sass/main.scss */
+
+
+>>>>>>> b1b9865f1165e6b48cd4806f9665e869115817dd
 .recent-school-white-bg h4 {
   margin-top: 1rem;
 }
