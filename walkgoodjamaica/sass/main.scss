@@ -1,5 +1,6 @@
 @import "color";
 
+<<<<<<< HEAD
 .report-header{
 	 margin:3rem;
 	h3{
@@ -22,20 +23,36 @@
 
 
 
+=======
+>>>>>>> 94564b61496679357d7d915ab0005211b8d21a2e
 /**Global styles**/
 a {
   letter-spacing: .02rem;
 }
 
 /**Headings**/
-h1, h2, h3 {
+h1, h2, h3, h6 {
 	border-left: solid $main-yellow 0.4rem;
 	padding: 0 0 0 0.5rem;
-}
-h2 {
-	 font-weight: bold;
+	margin-bottom:2rem;
+	font-weight:600;
 }
 
+/**wrapper for content sections**/
+.content-wrapper {
+	border-bottom: solid $divider 0.1rem;
+	padding:1.2rem 0 1.2rem 0;
+	h2 {
+		width:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.small-12 img {
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
 
 h1.header-h1 {
   border-left: none !important;
@@ -63,7 +80,7 @@ header h2.right {
 #header-img {
 	background: url(../img/placeholder-hero-img.jpg) no-repeat;
   	width: 100%;
-  	height: 65rem;
+  	height: 50rem;
 }
 #yellow-background {
 	background:rgba(254, 218, 49, 0.89);
@@ -75,36 +92,48 @@ header h2.right {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: transparent;
-  background: transparent;
-  border-bottom: 3px solid rgb(249, 212, 56);
+	background-color: transparent;
+  	background: transparent;
+    transition: all 0.5s ease;   
+    padding-bottom:.02rem;
+    border-bottom: 3px solid $main-yellow;
 }
 
 
 /**Styles for individual sections**/
 
+/**Styles for report section**/
+.report-header{
+	 margin:2rem;
+}
 
+
+#forth-icon-section{
+	padding-top:1rem;
+}
 
 /**Styles for footer sections*/
 
-.footer{
+.footer {
   background: $main-green;
-  padding: 0.5rem 0;
+  padding: 3rem 0;
   color: #ffffff !important;
-  h6{
-    border-left: solid 3px $main-yellow;
+  h6 {
     padding-left: 0.3rem;
     color: #ffffff;
     font-weight: bold;
     font-size: 1rem;
     margin-bottom: 1rem;
   }
-  p{
+  p {
     font-weight: 300;
     font-size: 0.85rem;
     margin-left: 0.5rem;
-
   }
-}
+
+
 
 /**Styles for About Us sections**/
+
+}
+
