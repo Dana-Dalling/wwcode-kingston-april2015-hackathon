@@ -7,14 +7,14 @@
   text-align: center;
 }
 
-/* line 10, ../sass/main.scss */
-.icons {
-  min-height: 2rem;
+/* line 12, ../sass/main.scss */
+#forth-icon-section {
+  padding-top: 1rem;
 }
 
 /**Global styles**/
 /**Headings**/
-/* line 18, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 h1, h2, h3 {
   border-left: solid #feda31 0.4rem;
   padding: 0 0 0 0.5rem;
