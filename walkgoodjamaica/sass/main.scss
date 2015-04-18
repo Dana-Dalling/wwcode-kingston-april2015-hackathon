@@ -3,7 +3,6 @@
 .report-header{
 	 margin:2rem;
 	h3{
-	 text-align:center;
 	 
 	}
 }
@@ -12,6 +11,7 @@
 #forth-icon-section{
 	padding-top:1rem;
 }
+
 
 
 /**Global styles**/
@@ -23,4 +23,54 @@ h1, h2, h3 {
 }
 
 
+
+h1.header-h1 {
+  border-left: none !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+.top-bar {
+	background: $main-green;
+}
+.top-bar-section ul li {
+  background: $main-green;
+}
+
+#header-img {
+	background: url(../img/placeholder-hero-img.jpg) no-repeat;
+  	width: 100%;
+  	height: 60rem;
+}
+
+
+
+
+
+
+
 /**Styles for individual sections**/
+
+
+
+/**Styles for footer sections*/
+
+.footer{
+  background: $main-green;
+  padding: 0.5rem 0;
+  color: #ffffff !important;
+  h6{
+    border-left: solid 3px $main-yellow;
+    padding-left: 0.3rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  p{
+    font-weight: 300;
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+
+  }
+}
+
