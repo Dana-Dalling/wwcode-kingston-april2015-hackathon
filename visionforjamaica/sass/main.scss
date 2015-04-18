@@ -1,1 +1,35 @@
 @import "color.scss";
+  
+ 
+
+  
+/** Header for What We Do Section**/
+h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+/**paragraph**/
+h3 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+p {
+	color: white;
+	font-weight: 300;
+	text-align: center;
+}
+/** Icon Sections**/
+
+/**section styles**/
+.what-we-do{
+	background-color: #464646;
+	padding: 4rem 0;
+	img{
+		padding-top: 3rem;
+	}
+}
+

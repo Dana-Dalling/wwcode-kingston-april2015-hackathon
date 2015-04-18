@@ -1,0 +1,34 @@
+/** Header for What We Do Section**/
+/* line 7, ../sass/main.scss */
+h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+/**paragraph**/
+/* line 15, ../sass/main.scss */
+h3 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 20, ../sass/main.scss */
+p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+/** Icon Sections**/
+/**section styles**/
+/* line 28, ../sass/main.scss */
+.what-we-do {
+  background-color: #464646;
+  padding: 4rem 0;
+}
+/* line 31, ../sass/main.scss */
+.what-we-do img {
+  padding-top: 3rem;
+}
