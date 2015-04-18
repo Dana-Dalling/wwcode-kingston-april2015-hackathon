@@ -1,35 +1,44 @@
 /*
-Error: Invalid CSS after "...nt-weight: bold": expected "{", was ";"
-        on line 38 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss
+Error: File to import not found or unreadable: color.
+       Load paths:
+         Compass::SpriteImporter
+         C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass
+         C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets
+        on line 1 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss
 
-33: /**Headings**\/
-34: h1, h2, h3, h6 {
-35: 	/*border-left: solid $main-yellow 0.4rem;*\/
-36: 	padding: 0 0 0 0.5rem;
-37: <<<<<<< HEAD
-38:    font-weight: bold;
-39: }
-40: h2 {
-41: 	font-weight: bold;
-42: 	margin-bottom:2rem;
-43: 	font-weight:600;
+1: @import "color";
+2: 
+3: /**styles for  report section**\/
+4: .report-header{
+5: 	 margin:3rem;
+6: 	h3{
 
 Backtrace:
-C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss:38
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss:1
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
@@ -50,4 +59,4 @@ C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...nt-weight: bold\": expected \"{\", was \";\"\A         on line 38 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss\A \A 33: /**Headings**/\A 34: h1, h2, h3, h6 {\A 35: 	/*border-left: solid $main-yellow 0.4rem;*/\A 36: 	padding: 0 0 0 0.5rem;\A 37: <<<<<<< HEAD\A 38:    font-weight: bold;\A 39: }\A 40: h2 {\A 41: 	font-weight: bold;\A 42: 	margin-bottom:2rem;\A 43: 	font-weight:600;"; }
+  content: "Error: File to import not found or unreadable: color.\A        Load paths:\A          Compass::SpriteImporter\A          C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass\A          C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets\A         on line 1 of C:/Users/carrie/Documents/GitHub/wwcode-kingston-april2015-hackathon/walkgoodjamaica/sass/main.scss\A \A 1: @import \"color\";\A 2: \A 3: /**styles for  report section**/\A 4: .report-header{\A 5: 	 margin:3rem;\A 6: 	h3{"; }
