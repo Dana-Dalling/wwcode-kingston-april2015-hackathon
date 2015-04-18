@@ -1,6 +1,13 @@
 @import "color";
 
+
+/**Global styles**/
+
+/**Headings**/
 h1, h2, h3 {
 	border-left: solid $main-yellow 0.4rem;
 	padding: 0 0 0 0.5rem;
 }
+
+
+/**Styles for individual sections**/
