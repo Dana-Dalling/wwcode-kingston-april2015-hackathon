@@ -14,13 +14,18 @@
 
 
 /**Global styles**/
+a {
+  letter-spacing: .02rem;
+}
 
 /**Headings**/
 h1, h2, h3 {
 	border-left: solid $main-yellow 0.4rem;
 	padding: 0 0 0 0.5rem;
 }
-
+h2 {
+	 font-weight: bold;
+}
 
 
 h1.header-h1 {
@@ -28,23 +33,43 @@ h1.header-h1 {
   font-size: 1.5rem !important;
   font-weight: bold;
 }
+
+header h2.right {
+  border-left: none;
+  font-size: 2rem;
+}
 .top-bar {
 	background: $main-green;
 }
 .top-bar-section ul li {
   background: $main-green;
 }
+.top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 0.9375rem;
+   line-height: 2.125rem;
+  background: #4EBA6E;
+   /*line-height: 2.3125rem;*/
+  }
 
 #header-img {
 	background: url(../img/placeholder-hero-img.jpg) no-repeat;
   	width: 100%;
-  	height: 60rem;
+  	height: 65rem;
+}
+#yellow-background {
+	background:rgba(254, 218, 49, 0.89);
+	padding: 15px;
+	margin-top: 35rem;
+}
+.no-margin {
+	margin-left:0rem;
 }
 
-
-
-
-
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: transparent;
+  background: transparent;
+  border-bottom: 3px solid rgb(249, 212, 56);
+}
 
 
 /**Styles for individual sections**/
